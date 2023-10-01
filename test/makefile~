@@ -1,0 +1,9 @@
+all:
+	gcc -Wall -g main.c
+
+clean:
+	@rm *.*~
+	@rm *~
+	@rm *.out
+	@rm *.i
+	@rm *.s
